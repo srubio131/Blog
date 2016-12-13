@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Gruppo);
+
+* {
+    font-family: 'Droid Sans';
+    margin: 0px;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: darkcyan;
+    padding: 10px 10px 10px 5px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+header h1 {
+    font-family: 'Gruppo';
+    margin-top: 0px;
+}
+
+header h3 {
+    font-family: 'Gruppo';
+    font-style: italic;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: lightblue;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 15px 10px 20px;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+section#main-left {
+    float: left;
+    margin-top: 3%;
+    width: 69%;
+}
+
+article {
+    margin-bottom: 25px;
+    cursor: move;
+}
+
+article .contenido {
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    margin-top: -15px;
+}
+
+article .practica {
+    padding: 5px;
+}
+
+div.fechaPublicacion {
+    padding-top: 10px;
+    font-style: italic;
+}
+
+article h2 {
+    background-color: darkslategray;
+    padding: 15px 0 25px 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside h3 {
+    background-color: darkslategray;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    width: auto;
+}
+
+article video {
+    padding-left: 15%;
+}
+
+.descripcion {
+    margin: 5px 0 5px 0;
+    padding: 0px 10% 3% 5%;
+    text-align: justify;
+}
+
+aside {
+    background-color: darkcyan;
+    float: right;
+    border-radius: 5px;
+    width: 30%;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+aside#panelContenido ul li {
+    margin: 1px 0 1px 0;
+    text-decoration: none;
+}
+
+#formulario {
+    width: 75%;
+    margin: 5% 5% 5% 15%;
+    border: solid 1px;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+#formulario h2 {
+    padding: 15px 0 25px 0;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+section h3 {
+    background-color: darkslategray;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section form {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    margin-top: -15px;
+}
+
+section form input[id="submit"] {
+    border-color: darkslategray;
+}
+
+textarea {
+    height: auto;
+    width: 75%;
+}
+
+form>input {
+    display:block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer {
+    height: 50px;
+    margin-top: 100px;
+    background-color: black;
+    width: 100%;
+    font-size: 90%;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+div.limpiar {
+    clear: none;
+}
+
+div[class=practica]>table { /*Ejercicio 2*/
+    border: solid 2px;
+    width: 50%;
+}
+
+table td {
+    border: solid 2px;
+    width: 15%;
+    text-align: center;
+    font-size: xx-large;
+    cursor: hand;
+}
+
+table tr {
+    height: 60px;
+}
+
+#panelResultados {
+    border: solid 2px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    width: 40%;
+    margin-right: 5px;
+}
+
+fieldset#panelOpciones {
+    margin-top: 8px;
+    width: 50%;
+}
+
+#resultados {
+    height: 160px;
+    overflow-y: scroll;
+}
+
+aside#panelChat { /* Ejercicio 3*/
+    float: right;
+    width:100%;
+    padding-bottom: 5%;
+}
+
+section#main-right {
+    float:right;
+    margin-top: 3%;
+    width: 29%;
+}
+
+#panelContenido {
+    width: 100%;
+}
+
+#panelMensajes {
+    background-color: white;
+    margin: 3%;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+div#panelMensajes > div {
+    padding: 5px 0 5px 10px;
+}
+
+#panelOpcionesChat {
+    margin: 0 10px 0 10px;
+}
+
+#geomap {   /* Ejercicio 4 */
+    height: 400px;
+    border: 1px solid;
+    margin-right: 5%;
+}
+
+#unCanvas { /* Ejercicio 5 */
+    margin-left: 15%;
+    border: 1px solid black;
+}
